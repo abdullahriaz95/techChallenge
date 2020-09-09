@@ -1,16 +1,8 @@
 # tech_challange
 
-A new Flutter application.
+A kind of tiktok clone.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project has its videos uploaded to firebase storage, and gets data from firebase cloud firestore of those videos. It then displays each videos in a carousal style way. The app also includes 4 different categories i.e. Footabll, Music, Funny, Animals. When ever a new category is clicked, and after swipe, the next video is played of the selected category. It uses Mobx as a state management mechanism.
+It is tested on Android Device for now.
